@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: 383838;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -23,6 +23,8 @@ h6 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
 }
 
 h2 {
@@ -116,6 +118,10 @@ p a:hover {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn.btn-branding:hover {
+  color: white;
+  transition: all 100ms ease-in-out;
+}
 
 .btn.btn-branding-outline {
   color: #383838;
@@ -126,7 +132,8 @@ p a:hover {
   padding: 15px 30px;
 }
 
-.btn.btn-branding:hover {
+.btn.btn-branding-outline:hover {
+  background-color: var(--branding-color);
   color: white;
   transition: all 100ms ease-in-out;
 }
@@ -136,7 +143,7 @@ p a:hover {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 90px;
 }
 
 nav {
